@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar{
+    width: 33%;
+    height: 25%;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 100%;
+    height:80%;
+    background-color: rgb(170, 107, 25);
+    font-size: 18x;
+    border-radius: 14px;
+}
+.buttonDiv{
+    width: 40%;
+    height: 20%;
+
+    border: 4px solid black;
+    outline: 5px solid rgb(41, 38, 38);
+    background-color: rgb(238, 236, 233);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+
+}
+button:hover{
+    background-color: wheat;
+}
